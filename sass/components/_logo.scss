@@ -8,7 +8,6 @@
 
 .header__logo {
   @extend %style-logo;
-  padding: 24px 0;
   color: $color-blue;
 
   &--dark {

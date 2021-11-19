@@ -37,6 +37,17 @@
   }
 }
 
+.address__item {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+}
+
 .address__mapslink {
   color: $color-white;
   transition: color $trans-duration $timing-function;

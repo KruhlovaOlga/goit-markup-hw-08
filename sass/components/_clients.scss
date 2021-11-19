@@ -41,7 +41,6 @@
 
 .clients__link {
   display: flex;
-  width: 170px;
   height: 92px;
   align-items: center;
   justify-content: center;
@@ -51,6 +50,9 @@
   &:focus,
   &:hover {
     border-color: $color-blue;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }
 
