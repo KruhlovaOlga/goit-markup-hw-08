@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+  .menu__button {
+    visibility: hidden;
+  }
+}
+.menu__button {
+  border: none;
+  align-items: center;
+  background-color: $color-white;
+  width: 40px;
+  height: 40px;
+}
+.menu__icon {
+  .menu__button:hover & {
+    fill: $color-blue;
+  }
+}
+
+.menu__button--close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 0;
+  background-color: $color-white;
+  border: none;
+  padding: 0;
+}
+
+.menu__close__icon {
+  width: 19px;
+  height: 19px;
+  fill: $color-black;
+  .menu__button--close:hover & {
+    fill: $color-blue;
+  }
+}
